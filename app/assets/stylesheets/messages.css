@@ -1,0 +1,43 @@
+.wrapper{
+  display: flex;
+}
+.side_bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side_bar_top{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+
+.side_bar_bottom{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+.main_chat{
+  background-color: white;
+  width: calc(100% - 300px);
+  height: 100hv;
+}
+
+.main_chat_top{
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main_chat_middle{
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0 40px;
+}
+
+.main_chat_botoom{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
