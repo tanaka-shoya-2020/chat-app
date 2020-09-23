@@ -38,12 +38,12 @@
 }
 
 .room {
-  padding: 20px 0 40px 0px;
+  padding: 20px 0 40px;
 }
+
 .chat-room a{
   color: white;
   text-decoration: none;
-  
 }
 .main_chat{
   background-color: white;
