@@ -8,7 +8,9 @@
 </div>
 
 <div class="main_chat_middle">
-  <div class="content">
+
+  <%= render partial: 'message', collection: @messages %>
+  <%# <div class="content">
     <div class="chat">
       <div class="chat-name">
         Tom
@@ -34,19 +36,8 @@
     <div class="chat-content">
       おはよう
     </div>
-  </div>
+  </div> %>
 </div>
-
-<%# <div class="main_chat_bottom">
-    <div class="form-input">
-      <input type="text" placeholder="type a message" class="text-form">
-      <label class="form-image">
-        <span class="image-file">画像</span>
-        <input type="file" class="hidden">
-      </label>
-    </div>
-      <input type="submit" value="送信" class="send">
-</div> %>
 
 <%= form_with model: [@room, @message], html: {class: "main_chat_bottom"}, local: true do |f| %>
   <div class="form-input">
